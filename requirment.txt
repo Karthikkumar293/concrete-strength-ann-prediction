@@ -1,0 +1,6 @@
+tensorflow      → loads and runs your ANN model
+numpy           → handles input arrays
+pandas          → data handling
+scikit-learn    → StandardScaler
+joblib          → loads scaler.pkl
+streamlit       → creates your prediction website
