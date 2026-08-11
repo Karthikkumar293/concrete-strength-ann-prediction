@@ -5,6 +5,13 @@ A Machine Learning project that predicts the **compressive strength of concrete*
 
 The project uses an **Artificial Neural Network (ANN)** built with TensorFlow/Keras to learn the relationship between concrete composition and its compressive strength.
 
+## 🌐 Live Demo
+
+### 🚀 [Click here to try the Concrete Strength Predictor](https://concrete-strength-ann-prediction.onrender.com/)
+
+Enter the concrete mixture details and get the predicted compressive strength in MPa.
+
+
 ---
 
 ## 🚀 Project Overview
