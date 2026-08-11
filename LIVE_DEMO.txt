@@ -1,7 +1,3 @@
-
-
 ## 🌐 Live Demo
 
-### 🚀 [Click here to try the Concrete Strength Predictor](https://concrete-strength-ann-prediction.onrender.com/)
-
-Enter the concrete mixture details and get the predicted compressive strength in MPa.
+[🚀 Click here to try the Concrete Strength Predictor](https://concrete-strength-ann-prediction.onrender.com/)
