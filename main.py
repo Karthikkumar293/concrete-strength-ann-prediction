@@ -1,20 +1,14 @@
 import streamlit as st
 import numpy as np
 import joblib
-import tensorflow as tf
 
-
-
-# Load trained model and scaler
-import streamlit as st
-import numpy as np
-import joblib
 
 # Load trained model and scaler
 model = joblib.load("model.pkl")
 scaler = joblib.load("scaler.pkl")
 
-# Page title
+
+# Page configuration
 st.set_page_config(
     page_title="Concrete Strength Predictor",
     page_icon="🏗️"
@@ -95,7 +89,7 @@ if st.button("Predict Concrete Strength"):
         age
     ]])
 
-    # Scale input using the saved scaler
+    # Scale input
     user_input_scaled = scaler.transform(user_input)
 
     # Make prediction
