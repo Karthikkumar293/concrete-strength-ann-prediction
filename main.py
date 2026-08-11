@@ -1,13 +1,18 @@
 import streamlit as st
 import numpy as np
 import joblib
-from tensorflow.keras.models import load_model
+import tensorflow as tf
+
 
 
 # Load trained model and scaler
-model = load_model("concrete_strength_model.keras")
-scaler = joblib.load("scaler.pkl")
+import streamlit as st
+import numpy as np
+import joblib
 
+# Load trained model and scaler
+model = joblib.load("model.pkl")
+scaler = joblib.load("scaler.pkl")
 
 # Page title
 st.set_page_config(
